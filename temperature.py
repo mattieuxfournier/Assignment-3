@@ -32,6 +32,7 @@ start = temps[-1][0]
 end = temps[-1][1]
 year = years[-1]
 temp_dict[data[year]] = data[start:end]
+print(temp_dict)
 def avgTempYear(dictionary, user_year):
     dict = open(f'{dictionary}')
     dict = dict.read().split()
